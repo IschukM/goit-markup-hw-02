@@ -13,10 +13,15 @@
 /* site-nav */
 
 .logo {
-  font-family: 'Raleway', sans-serif;
   color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
 }
-.logo .logo:hover {
+.logo:hover,
+.logo:focus {
   color: var(--accent-color);
 }
 
@@ -32,7 +37,9 @@
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 .auth-nav .link {
   color: var(--title-text-color);
 }
