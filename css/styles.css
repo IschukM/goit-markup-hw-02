@@ -108,10 +108,7 @@
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
-.button:hover,
-.button:focus {
-  color: var(--accent-color);
-}
+
 /* team */
 .team-list .title {
   color: var(--title-text-color);
@@ -137,6 +134,7 @@
 .address .link {
   color: var(--primery-bg-color);
 
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -152,4 +150,32 @@
 
 .address .link {
   color: rgba(255, 255, 255, 0.6);
+
+  font-style: normal;
+}
+
+/* portfolio */
+
+.filters-button {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.filters-button:hover,
+.filters-button:focus {
+  color: var(--accent-color);
+}
+
+.project .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project .text {
+  font-size: 16px;
+  line-height: 0.88;
 }
