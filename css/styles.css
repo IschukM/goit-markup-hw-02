@@ -50,7 +50,7 @@
   color: var(--accent-color);
 }
 
-.auth-nav .link {
+.contacts-nav .link {
   color: var(--primery-text-color);
 
   font-weight: 500;
@@ -58,8 +58,8 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.auth-nav .link:hover,
-.auth-nav .link:focus {
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
   color: var(--accent-color);
 }
 .hyro {
@@ -86,7 +86,6 @@
 }
 
 /* features */
-
 .features-list .title {
   color: var(--title-text-color);
 
@@ -100,7 +99,6 @@
   line-height: 1.71;
 }
 /* button */
-
 .button {
   color: var(--primery-bg-color);
 
@@ -109,4 +107,49 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+}
+.button:hover,
+.button:focus {
+  color: var(--accent-color);
+}
+/* team */
+.team-list .title {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2px;
+}
+
+.team-list .text {
+  color: var(--primery-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+}
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+
+.address .text,
+.address .link {
+  color: var(--primery-bg-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.address .text:hover,
+.address .text:hover {
+  color: var(--accent-color);
+}
+.address .link:hover,
+.address .link:hover {
+  color: var(--accent-color);
+}
+
+.address .link {
+  color: rgba(255, 255, 255, 0.6);
 }
