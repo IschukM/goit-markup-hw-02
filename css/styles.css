@@ -5,11 +5,10 @@
   --accent-color: #2196f3;
   --primery-bg-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
-  /* hyro-button */
   --hyro-bg-color: #2f303a;
   --futer-address-color: rgba(255, 255, 255, 0.6);
   --container-bg-color: #eeeeee;
-  --hz-color: #ececec;
+  --line-header-color: #ececec;
   --buton-active-color: #188ce8;
 }
 
@@ -28,6 +27,20 @@ body {
 
 .list {
   list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* site-nav */
@@ -99,22 +112,9 @@ body {
 
 .button:hover,
 .button:focus {
-  color: var(--buton-active-color);
+  background-color: var(--buton-active-color);
 }
 /* section */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 
 .section-title {
   color: var(--title-text-color);
@@ -136,7 +136,6 @@ body {
 }
 
 .features-list .text {
-  font-size: 14px;
   line-height: 1.71;
 }
 
