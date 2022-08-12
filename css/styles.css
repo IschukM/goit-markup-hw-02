@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: var(--primery-white-color);
+  background-color: var(--primery-bg-color);
   color: var(--primery-text-color);
 
   font-family: Roboto, 'open sans', sans-serif;
@@ -31,16 +31,15 @@ body {
 
 .visually-hidden {
   position: absolute;
+  white-space: nowrap;
   width: 1px;
   height: 1px;
-  margin: -1px;
+  overflow: hidden;
   border: 0;
   padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  overflow: hidden;
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 /* site-nav */
@@ -199,7 +198,9 @@ body {
 
 .filters-button {
   color: var(--title-text-color);
+
   cursor: pointer;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -207,7 +208,8 @@ body {
 
 .filters-button:hover,
 .filters-button:focus {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: var(--primery-bg-color);
 }
 
 .project .title {
@@ -219,6 +221,7 @@ body {
   letter-spacing: 0.06em;
 }
 .project .text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 0.88;
 }
