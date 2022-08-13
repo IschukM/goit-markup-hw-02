@@ -42,6 +42,10 @@ body {
   margin: -1px;
 }
 
+img {
+  display: block;
+}
+
 /* site-nav */
 
 .logo {
@@ -171,8 +175,7 @@ body {
   color: var(--primery-bg-color);
 }
 
-.address .text,
-.address .link {
+.address .text {
   color: var(--primery-bg-color);
 
   font-style: normal;
@@ -184,27 +187,31 @@ body {
 .address .text:hover {
   color: var(--accent-color);
 }
-.address .link:hover,
-.address .link:hover {
+.contacts:hover,
+.contacts:hover {
   color: var(--accent-color);
 }
 
-.address .link {
+.contacts {
   color: rgba(255, 255, 255, 0.6);
 
   font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* portfolio */
 
 .filters-button {
   color: var(--title-text-color);
-
+  background-color: var(--secondary-bg-color);
   cursor: pointer;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 
 .filters-button:hover,
@@ -224,5 +231,5 @@ body {
 .project .text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 0.88;
+  line-height: 1.88;
 }
